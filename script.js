@@ -7,7 +7,7 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/fotoperfil.jpeg")
   } else {
-    // Agora o caminho aponta corretamente para a pasta assets
+    // Agora o caminho aponta corretamente para dentro da pasta assets
     img.setAttribute("src", "./assets/fotoperfil.jpeg")
   }
 }
